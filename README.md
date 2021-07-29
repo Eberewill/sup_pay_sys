@@ -19,7 +19,7 @@ POST /api/getdiscount
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `code` | `string` | **Required**. Your Product Code |
-| `amount` | `number ` | **Required**. Your invoice total |
+| `amount` | `number ` | **NotRequired**. Your invoice total |
 | `userId` | `number` | **Required**. Your userID (any) |
 
 A simple request Body
