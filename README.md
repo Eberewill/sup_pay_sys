@@ -13,7 +13,7 @@ Let’s assume we have a payment sub-system. This system is supposed to check wh
 
 
 ```http
-POST /api/getdiscount
+POST https://sup-pays.herokuapp.com/api/getdiscount
 ```
 
 | Parameter | Type | Description |
