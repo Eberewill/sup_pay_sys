@@ -8,7 +8,7 @@ Let’s assume we have a payment sub-system. This system is supposed to check wh
 1. A product can have a category as a parent. 
 2. Every category can have a parent category. Applying the discount: If the product has a discount this discount has a priority and will be returned. Otherwise, we move to its parent category (if it exists) and check if it has a discount and so on until the product-category chain is done. If no discount was found the API should return -1. For simplicity, you can only consider 2 layers of this structure and we have one product from one category, which is this category is another subset of categories. But you’re more than welcome to show your talent :)
 
-## Authorization
+## Solution
 
 
 
