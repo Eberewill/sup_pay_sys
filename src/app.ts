@@ -3,6 +3,7 @@ import * as bodyParser from "body-parser";
 import Controller from "./interfaces/controller.interface";
 
 
+const PORT : string|number = process.env.PORT || 5000;
  
 
 class App {
@@ -18,8 +19,8 @@ class App {
 
 
   public listen() {
-    this.app.listen(process.env.PORT , () => {
-      console.log(`App listening on the port ${process.env.PORT}`);
+    this.app.listen(PORT , () => {
+      console.log(`App listening on the port ${PORT}`);
     });
   }
 
